@@ -16,12 +16,10 @@ void printPascalsTriangle(int rows) {
     for (int j = 0; j < rows - i - 1; j++) {
       stdout.write(' ');
     }
-    
     // Mencetak elemen-elemen segitiga Pascal pada baris ke-i
     for (int j = 0; j <= i; j++) {
       stdout.write('${pascal(i, j)} ');
     }
-    
     // Pindah ke baris berikutnya
     print('');
   }
